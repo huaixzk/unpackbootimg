@@ -30,7 +30,7 @@ unpackbootimg.o:unpackbootimg.c
 	$(CC) -o $@ -c $< 
 
 clean:
-	$(RM) mkbootimg mkbootimg.o unpackbootimg unpackbootimg.o 
+	$(RM) mkbootimg mkbootimg.o unpackbootimg unpackbootimg.o      mkbootimg.exe    unpackbootimg.exe 
 	$(RM) libmincrypt.a Makefile.~
 	make -C libmincrypt clean
 
